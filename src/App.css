@@ -1,38 +1,142 @@
 .App {
-  text-align: center;
+   text-align: center;
+   background-color: white;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+   height: 40vmin;
+   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+   .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+   background-color: white;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+   color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+#Livello_1 {
+   enable-background: new 0 0 1415.3 943.9;
+}
+
+.st0 {
+   fill: none;
+}
+.title {
+   font-family: 'Sackers Gothic Std';
+   font-size: 92px;
+   /* opacity: 0; */
+}
+.subtile {
+   font-family: 'Sackers Gothic Std';
+   font-size: 28px;
+   /* opacity: 0; */
+}
+.horizontal,
+.vertical {
+   /* opacity: 0; */
+   fill: none;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+}
+
+.bold {
+   stroke-width: 6;
+}
+
+.light {
+   stroke-width: 2;
+}
+.container {
+   fill: none;
+   stroke-width: 10;
+}
+.AvernaDesign {
+   text-align: center;
+   align-items: stretch;
+   width: 70%;
+   height: 70%;
+}
+.black {
+   background-color: black;
+}
+
+.white {
+   background-color: white;
+}
+
+.fi p {
+   margin-top: 25px;
+   font-size: 21px;
+   text-align: center;
+   animation: fadein 2s;
+   -moz-animation: fadein 2s; /* Firefox */
+   -webkit-animation: fadein 2s; /* Safari and Chrome */
+   -o-animation: fadein 2s; /* Opera */
+}
+
+.console-underscore {
+   display: inline-block;
+   position: relative;
+   top: -0.14em;
+   left: 10px;
+}
+
+@keyframes fadein {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+@-moz-keyframes fadein {
+   /* Firefox */
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+@-webkit-keyframes fadein {
+   /* Safari and Chrome */
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+@-o-keyframes fadein {
+   /* Opera */
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
 }
